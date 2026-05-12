@@ -28,3 +28,39 @@ This project documents my cybersecurity networking fundamentals and reconnaissan
 - Reading active connections
 - Understanding listening ports
 - Basic reconnaissance methodology
+
+- ## Lab Results
+
+### Linux Network Information
+
+- IP Address: 10.0.2.15
+- Gateway: 10.0.2.2
+- Network Range: 10.0.2.0/24
+
+### Observations
+
+- No listening services detected with ss -tuln
+- Active HTTPS connections observed
+- DHCP traffic identified
+- VirtualBox NAT environment detected
+
+## Commands Practiced
+
+### Linux
+
+bash
+ip a
+ip route
+ss -tuln
+netstat -ano
+arp -a
+
+
+ PowerShell
+
+ powershell
+ipconfig
+ipconfig /all
+netstat -ano
+Test-Connection google.com
+
