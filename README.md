@@ -64,3 +64,29 @@ ipconfig /all
 netstat -ano
 Test-Connection google.com
 
+## Day 2 - TCP/IP and Port Analysis
+
+### Concepts Learned
+
+- TCP vs UDP
+- TCP 3-Way Handshake
+- Open vs Closed vs Filtered ports
+- Active reconnaissance
+- SYN scanning
+
+### Commands Practiced
+
+#### Linux
+
+```bash
+ss -ant
+sudo nmap -sS 127.0.0.1
+sudo nmap -sV scanme.nmap.org
+```
+
+#### PowerShell
+
+```powershell
+Get-NetTCPConnection
+Test-NetConnection google.com -Port 443
+```
