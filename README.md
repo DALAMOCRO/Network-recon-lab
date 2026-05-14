@@ -90,3 +90,32 @@ sudo nmap -sV scanme.nmap.org
 Get-NetTCPConnection
 Test-NetConnection google.com -Port 443
 ```
+## Day 3 - Linux Fundamentals and Privileges
+
+### Concepts Learned
+
+- Linux filesystem structure
+- Users and groups
+- Linux permissions
+- sudo privileges
+- Sensitive files
+- Running processes
+
+### Commands Practiced
+
+```bash
+whoami
+id
+pwd
+ls -la
+cat /etc/passwd
+sudo -l
+ps aux
+```
+
+### Important Files
+
+```text
+/etc/passwd
+/etc/shadow
+```
